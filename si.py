@@ -15,3 +15,5 @@ def test():
 
 
 test()
+
+print(x == 0)
