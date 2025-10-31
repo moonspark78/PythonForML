@@ -15,5 +15,14 @@ def test():
 
 
 test()
-
 print(x == 0)
+
+
+x=2
+y=3
+if (x>0) & (y>x):
+    print("Both conditions are true")
+elif x==0:
+    print("x is zero")
+else:
+    print("At least one condition is false")
