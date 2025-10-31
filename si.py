@@ -39,3 +39,4 @@ def signe(x):
 
 print(signe(5))
 print(signe(0))
+print(signe(-3))
