@@ -26,3 +26,15 @@ elif x==0:
     print("x is zero")
 else:
     print("At least one condition is false")
+
+
+def signe(x):
+    if x > 0:
+        return "le nombre en parametre de signe est : Positive"
+    elif x == 0:
+        return "le nombre en parametre de signe est : Zero"
+    else:
+        return "le nombre en parametre de signe est : Negative"
+
+
+print(signe(5))
